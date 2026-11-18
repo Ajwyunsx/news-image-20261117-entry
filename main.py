@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Copy the poster image to /output/entry.png.
+"""Copy the shipped 1024x1024 entry.png to /output/entry.png.
 
-The submission image is a pre-rendered 1024x1024 PNG that ships with this
-repository (entry.png). This program is intentionally tiny and deterministic:
-it resolves its own directory, makes sure /output exists, and byte-copies the
-PNG there. No network, no dependencies outside the standard library.
+The submission image is a pre-rendered 1024x1024 PNG that ships next to this
+program as entry.png. This script is deliberately tiny and deterministic: it
+resolves its own directory, ensures /output exists, and byte-copies the PNG
+there. Standard library only, no network.
 """
 
 import os
